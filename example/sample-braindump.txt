@@ -1,0 +1,9 @@
+Export button on the reports page crashes when the date range is more than 90 days. Users should be able to export up to a full year without errors. This is urgent since finance needs it for month-end close.
+
+We should add a dark mode toggle to the settings page. It should persist across sessions and default to the user's system preference when they haven't chosen one yet. Nice to have, no rush.
+
+Refactor the auth middleware to remove the old session token format. Needs to migrate existing sessions without logging anyone out.
+
+The search bar on mobile doesn't work when the keyboard is open - the results dropdown gets hidden behind the keyboard. Users must be able to see at least 3 results while typing.
+
+Clean up unused npm dependencies and update docs for the onboarding guide. Low priority, whenever someone has spare time.

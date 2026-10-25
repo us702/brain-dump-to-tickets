@@ -1,0 +1,30 @@
+{
+  "name": "brain-dump-to-tickets",
+  "version": "1.0.0",
+  "description": "Turn a rough brain-dump of notes into structured tickets (title, type, priority, estimate, acceptance criteria) - Markdown and CSV, ready to import into Jira, Linear, or GitHub Issues.",
+  "main": "index.js",
+  "bin": {
+    "brain-dump-to-tickets": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT",
+  "author": "Uzair Saeed",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/us702/brain-dump-to-tickets.git"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "keywords": [
+    "cli",
+    "tickets",
+    "jira",
+    "linear",
+    "github-issues",
+    "productivity",
+    "ai"
+  ]
+}
